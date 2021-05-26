@@ -1,0 +1,23 @@
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 49px;
+    width: 151px;
+    font: var(--button);
+    text-decoration: none;
+    background: var(--color-primary);
+    border-radius: 90px;
+    border: 2px solid var(--color-black);
+    color: var(--color-black);
+}
+
+/* primary */
+.button:hover {
+    background: #D7C244;
+    border: 2px solid #0F0A0A;
+    box-shadow: -4px 4px 14px rgba(0, 0, 0, 0.20);
+    border-radius: 90px;
+}
+
+

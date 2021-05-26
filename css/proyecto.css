@@ -1,0 +1,33 @@
+.intro {
+text-align: center;
+}
+
+.intro h2{
+    font: var(--bodyheadline);
+    
+    display:block;
+}
+
+
+.intro p{
+    font: var(--headline5);
+    font-size: 1.4rem;
+}
+
+.intro img{
+    text-align: center;
+    width: 60px;
+}
+
+@media screen and (max-width: 375px) {
+    .intro h2 {
+        text-align: justify;
+    }
+    
+
+    .intro img{
+        text-align: center;
+        width: 40px;
+    }
+
+}

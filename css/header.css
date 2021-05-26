@@ -1,0 +1,12 @@
+.header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    text-transform: uppercase;
+}
+
+.header a:hover .logo-icon{
+    fill: #D7C244;
+}

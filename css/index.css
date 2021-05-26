@@ -1,0 +1,39 @@
+@import "./wrapper.css";
+@import "./header.css";
+@import "./menu.css";
+@import "./hero.css";
+@import "./proyecto.css";
+@import "./button.css";
+
+:root {
+    --color-black: #0F0A0A;
+    --color-primary: #48E05A;
+    --color-secunary: #D7C244;
+    --basefont: 'Poppins', sans-serif;
+    --headline1: bold 9.5rem/15rem  var(--basefont);
+    --headline2: bold 5.9rem/9.5rem  var(--basefont);
+    --headline3: bold 4.2rem/7rem  var(--basefont);
+    --headline4: bold 3.4rem/5.5rem var(--basefont);
+    --headline5: bold 2.4rem/2rem var(--basefont);
+    --body1: 400 1.6rem/2.5rem var(--basefont);
+    --body2: 400 1.6rem/2.5rem var(--basefont);
+    --bodyheadline: 100 2rem/2.5rem var(--basefont);
+    --button: bold 1.4rem/2.2rem var(--basefont);
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.2%;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    width: 100cw;
+    min-height: 100vh;
+    background: linear-gradient(135deg, rgba(244, 78, 190, 0.98) 0%, #823FFC 94.27%);
+}
