@@ -10,6 +10,7 @@
     border-radius: 90px;
     border: 2px solid var(--color-black);
     color: var(--color-black);
+    text-transform: uppercase;
 }
 
 /* primary */
@@ -20,4 +21,33 @@
     border-radius: 90px;
 }
 
+.button-secundary {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 49px;
+    width: 151px;
+    font: var(--button);
+    text-transform: uppercase;
+    text-decoration: none;
+    background: transparent;
+    border-radius: 90px;
+    border: 2px solid var(--color-black);
+    color: var(--color-black);
+}
 
+.button-secundary:hover {
+    background: #D7C244;
+    border: 2px solid #0F0A0A;
+    box-shadow: -4px 4px 14px rgba(0, 0, 0, 0.20);
+    border-radius: 90px;
+}
+
+.button-secundary span{
+    width: 20px;
+    height: 20px;
+    background-image: url("../assets/icons/icon-github.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

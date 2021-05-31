@@ -31,3 +31,20 @@ text-align: center;
     }
 
 }
+
+.info{
+    width: 50%;
+}
+
+.info .proyecto__name {
+    font: var(--headline4);
+}
+
+.info .proyecto__description{
+    font: var(--body1)
+}
+
+
+.info .proyecto__buttons{
+    display: flex;
+}
